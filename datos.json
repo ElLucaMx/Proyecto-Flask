@@ -1,0 +1,518 @@
+[
+  {
+    "nombre": "Nintendo",
+    "exclusivos": [
+      {
+        "titulo": "The Legend of Zelda: Breath of the Wild",
+        "anioLanzamiento": 2017,
+        "genero": "Acción-Aventura",
+        "finanzas": {
+          "ventas": "20 millones",
+          "recaudacion": "$500 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "Nintendo Switch",
+            "Wii U"
+          ],
+          "modoJuego": [
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 97,
+        "idioma": [
+          "Inglés",
+          "Japonés",
+          "Español",
+          "Francés"
+        ],
+        "descripcion": "Un extenso mundo abierto donde Link despierta de un largo sueño para enfrentarse a la oscuridad que ha caído sobre Hyrule.",
+        "desarrollo": {
+          "desarrolladora": "Nintendo EPD",
+          "personas": [
+            "Eiji Aonuma",
+            "Hidemaro Fujibayashi"
+          ]
+        }
+      },
+      {
+        "titulo": "Super Mario Odyssey",
+        "anioLanzamiento": 2017,
+        "genero": "Plataformas",
+        "finanzas": {
+          "ventas": "18 millones",
+          "recaudacion": "$450 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "Nintendo Switch"
+          ],
+          "modoJuego": [
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 97,
+        "idioma": [
+          "Inglés",
+          "Japonés",
+          "Español",
+          "Alemán"
+        ],
+        "descripcion": "Mario se embarca en una aventura global para rescatar a la Princesa Peach del malvado Bowser, explorando diversos reinos llenos de sorpresas.",
+        "desarrollo": {
+          "desarrolladora": "Nintendo EPD",
+          "personas": [
+            "Kenta Motokura",
+            "Yoshiaki Koizumi"
+          ]
+        }
+      },
+      {
+        "titulo": "Animal Crossing: New Horizons",
+        "anioLanzamiento": 2020,
+        "genero": "Simulación",
+        "finanzas": {
+          "ventas": "30 millones",
+          "recaudacion": "$600 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "Nintendo Switch"
+          ],
+          "modoJuego": [
+            "Multijugador",
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 90,
+        "idioma": [
+          "Inglés",
+          "Japonés",
+          "Español",
+          "Italiano"
+        ],
+        "descripcion": "Un juego relajado en el que los jugadores crean y gestionan su propia isla, interactuando con vecinos y personalizando su entorno.",
+        "desarrollo": {
+          "desarrolladora": "Nintendo EPD",
+          "personas": [
+            "Aya Kyogoku",
+            "Takashi Yamauchi"
+          ]
+        }
+      },
+      {
+        "titulo": "Super Smash Bros. Ultimate",
+        "anioLanzamiento": 2018,
+        "genero": "Lucha",
+        "finanzas": {
+          "ventas": "30 millones",
+          "recaudacion": "$1000 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "Nintendo Switch"
+          ],
+          "modoJuego": [
+            "Multijugador",
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 93,
+        "idioma": [
+          "Inglés",
+          "Japonés",
+          "Español",
+          "Francés",
+          "Alemán"
+        ],
+        "descripcion": "Un juego de lucha que reúne a personajes icónicos de Nintendo y otros universos, ofreciendo batallas caóticas y competitivas.",
+        "desarrollo": {
+          "desarrolladora": "Sora Ltd.",
+          "personas": [
+            "Masahiro Sakurai",
+            "Satoru Iwata"
+          ]
+        }
+      }
+    ],
+    "subempresa": {
+      "nombre": "Nintendo Classics",
+      "exclusivos": [
+        {
+          "titulo": "Super Mario Bros.",
+          "anioLanzamiento": 1985,
+          "genero": "Plataformas",
+          "finanzas": {
+            "ventas": "40 millones",
+            "recaudacion": "$1,000 millones"
+          },
+          "jugabilidad": {
+            "plataformas": [
+              "NES"
+            ],
+            "modoJuego": [
+              "Un jugador"
+            ]
+          },
+          "puntuacionCritica": 95,
+          "idioma": [
+            "Inglés",
+            "Japonés",
+            "Español"
+          ],
+          "descripcion": "Un clásico que inició la saga de Mario, ofreciendo aventuras en un mundo lleno de obstáculos y enemigos.",
+          "desarrollo": {
+            "desarrolladora": "Nintendo EAD",
+            "personas": [
+              "Shigeru Miyamoto",
+              "Takashi Tezuka"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "nombre": "PlayStation",
+    "exclusivos": [
+      {
+        "titulo": "The Last of Us Part II",
+        "anioLanzamiento": 2020,
+        "genero": "Acción-Aventura",
+        "finanzas": {
+          "ventas": "10 millones",
+          "recaudacion": "$400 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "PlayStation 4",
+            "PlayStation 5"
+          ],
+          "modoJuego": [
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 93,
+        "idioma": [
+          "Inglés",
+          "Español",
+          "Francés"
+        ],
+        "descripcion": "Una intensa historia postapocalíptica que sigue la venganza y la redención, con un fuerte enfoque en la narrativa y el desarrollo de personajes.",
+        "desarrollo": {
+          "desarrolladora": "Naughty Dog",
+          "personas": [
+            "Neil Druckmann",
+            "Bruce Straley"
+          ]
+        }
+      },
+      {
+        "titulo": "God of War",
+        "anioLanzamiento": 2018,
+        "genero": "Acción-Aventura",
+        "finanzas": {
+          "ventas": "12 millones",
+          "recaudacion": "$500 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "PlayStation 4",
+            "PlayStation 5"
+          ],
+          "modoJuego": [
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 94,
+        "idioma": [
+          "Inglés",
+          "Nórdico antiguo (para ambientación)"
+        ],
+        "descripcion": "Kratos, acompañado por su hijo Atreus, se embarca en una travesía que mezcla la mitología nórdica con elementos de acción y drama.",
+        "desarrollo": {
+          "desarrolladora": "Santa Monica Studio",
+          "personas": [
+            "Cory Barlog",
+            "Richard Gaubert"
+          ]
+        }
+      },
+      {
+        "titulo": "Bloodborne",
+        "anioLanzamiento": 2015,
+        "genero": "RPG de Acción",
+        "finanzas": {
+          "ventas": "5 millones",
+          "recaudacion": "$200 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "PlayStation 4"
+          ],
+          "modoJuego": [
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 92,
+        "idioma": [
+          "Inglés",
+          "Japonés"
+        ],
+        "descripcion": "Un oscuro y retador juego de rol de acción en un mundo gótico, donde los jugadores deben enfrentarse a criaturas terroríficas y descubrir secretos ancestrales.",
+        "desarrollo": {
+          "desarrolladora": "FromSoftware",
+          "personas": [
+            "Hidetaka Miyazaki",
+            "Yui Tanimura"
+          ]
+        }
+      },
+      {
+        "titulo": "Uncharted 4: A Thief's End",
+        "anioLanzamiento": 2016,
+        "genero": "Acción-Aventura",
+        "finanzas": {
+          "ventas": "12 millones",
+          "recaudacion": "$550 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "PlayStation 4"
+          ],
+          "modoJuego": [
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 93,
+        "idioma": [
+          "Inglés"
+        ],
+        "descripcion": "Nathan Drake regresa en una última aventura llena de acción, enigmas y paisajes impresionantes, concluyendo una saga legendaria.",
+        "desarrollo": {
+          "desarrolladora": "Naughty Dog",
+          "personas": [
+            "Neil Druckmann",
+            "Bruce Straley"
+          ]
+        }
+      }
+    ],
+    "subempresa": {
+      "nombre": "PlayStation Studios Indie",
+      "exclusivos": [
+        {
+          "titulo": "Journey",
+          "anioLanzamiento": 2012,
+          "genero": "Aventura",
+          "finanzas": {
+            "ventas": "2 millones",
+            "recaudacion": "$50 millones"
+          },
+          "jugabilidad": {
+            "plataformas": [
+              "PlayStation 3",
+              "PlayStation 4",
+              "PC"
+            ],
+            "modoJuego": [
+              "Un jugador",
+              "Multijugador"
+            ]
+          },
+          "puntuacionCritica": 92,
+          "idioma": [
+            "Inglés",
+            "Español",
+            "Francés"
+          ],
+          "descripcion": "Un juego artístico y emotivo que lleva a los jugadores a un viaje a través de un desierto misterioso en busca de conexión.",
+          "desarrollo": {
+            "desarrolladora": "Thatgamecompany",
+            "personas": [
+              "Jenova Chen",
+              "Kellee Santiago"
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "nombre": "Xbox",
+    "exclusivos": [
+      {
+        "titulo": "Halo Infinite",
+        "anioLanzamiento": 2021,
+        "genero": "Shooter en primera persona",
+        "finanzas": {
+          "ventas": "8 millones",
+          "recaudacion": "$350 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "Xbox Series X/S",
+            "Xbox One",
+            "PC"
+          ],
+          "modoJuego": [
+            "Un jugador",
+            "Multijugador"
+          ]
+        },
+        "puntuacionCritica": 87,
+        "idioma": [
+          "Inglés",
+          "Español",
+          "Alemán"
+        ],
+        "descripcion": "El legendario Jefe Maestro regresa en una nueva entrega de la saga Halo, ofreciendo un extenso mundo abierto y un multijugador renovado.",
+        "desarrollo": {
+          "desarrolladora": "343 Industries",
+          "personas": [
+            "Joseph Staten",
+            "Marcus Lehto"
+          ]
+        }
+      },
+      {
+        "titulo": "Forza Horizon 5",
+        "anioLanzamiento": 2021,
+        "genero": "Carreras",
+        "finanzas": {
+          "ventas": "7 millones",
+          "recaudacion": "$300 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "Xbox Series X/S",
+            "Xbox One",
+            "PC"
+          ],
+          "modoJuego": [
+            "Multijugador",
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 92,
+        "idioma": [
+          "Inglés",
+          "Español",
+          "Francés",
+          "Alemán"
+        ],
+        "descripcion": "Una vibrante experiencia de mundo abierto que combina carreras, exploración y festivales en escenarios basados en paisajes reales de México.",
+        "desarrollo": {
+          "desarrolladora": "Playground Games",
+          "personas": [
+            "Adam Szymanski",
+            "Paul Ross"
+          ]
+        }
+      },
+      {
+        "titulo": "Gears 5",
+        "anioLanzamiento": 2019,
+        "genero": "Shooter en tercera persona",
+        "finanzas": {
+          "ventas": "4 millones",
+          "recaudacion": "$150 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "Xbox Series X/S",
+            "Xbox One",
+            "PC"
+          ],
+          "modoJuego": [
+            "Multijugador",
+            "Un jugador"
+          ]
+        },
+        "puntuacionCritica": 84,
+        "idioma": [
+          "Inglés",
+          "Español"
+        ],
+        "descripcion": "La lucha por la supervivencia continúa en esta entrega de Gears of War, con una fuerte narrativa, acción cooperativa y campañas intensas.",
+        "desarrollo": {
+          "desarrolladora": "The Coalition",
+          "personas": [
+            "Edward Dring",
+            "Scott Stewart"
+          ]
+        }
+      },
+      {
+        "titulo": "Halo: Combat Evolved",
+        "anioLanzamiento": 2001,
+        "genero": "Shooter en primera persona",
+        "finanzas": {
+          "ventas": "5 millones",
+          "recaudacion": "$200 millones"
+        },
+        "jugabilidad": {
+          "plataformas": [
+            "Xbox",
+            "PC"
+          ],
+          "modoJuego": [
+            "Un jugador",
+            "Multijugador"
+          ]
+        },
+        "puntuacionCritica": 89,
+        "idioma": [
+          "Inglés"
+        ],
+        "descripcion": "El juego que inició la legendaria saga Halo, marcando un antes y un después en los shooters de consola.",
+        "desarrollo": {
+          "desarrolladora": "Bungie",
+          "personas": [
+            "Jason Jones",
+            "Alex Seropian"
+          ]
+        }
+      }
+    ],
+    "subempresa": {
+      "nombre": "Xbox Game Studios Publishing",
+      "exclusivos": [
+        {
+          "titulo": "Ori and the Will of the Wisps",
+          "anioLanzamiento": 2020,
+          "genero": "Plataformas, Aventura",
+          "finanzas": {
+            "ventas": "3 millones",
+            "recaudacion": "$100 millones"
+          },
+          "jugabilidad": {
+            "plataformas": [
+              "Xbox One",
+              "Xbox Series X/S",
+              "PC"
+            ],
+            "modoJuego": [
+              "Un jugador"
+            ]
+          },
+          "puntuacionCritica": 90,
+          "idioma": [
+            "Inglés",
+            "Español",
+            "Francés",
+            "Alemán"
+          ],
+          "descripcion": "Una hermosa y desafiante aventura en un mundo vibrante, donde la agilidad y la emoción se combinan en un juego de plataformas único.",
+          "desarrollo": {
+            "desarrolladora": "Moon Studios",
+            "personas": [
+              "Thomas Mahler",
+              "Glen Murakami"
+            ]
+          }
+        }
+      ]
+    }
+  }
+]
