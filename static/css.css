@@ -1,0 +1,169 @@
+/* ==============================
+   Variables de Color y Tipografía
+   ============================== */
+:root {
+  --color-bg: #f5f7fa;
+  --color-primary: #007acc;
+  --color-primary-light: #66b2ff;
+  --color-text: #333;
+  --color-accent: #ff6a00;
+  --font-base: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --spacing: 1rem;
+}
+
+/* ==============================
+   Reset y Base
+   ============================== */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-base);
+  line-height: 1.6;
+  padding: var(--spacing);
+}
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+/* ==============================
+   Header y Logo
+   ============================== */
+header {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing) 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: var(--spacing);
+}
+header img {
+  height: 50px;
+  transition: transform 0.2s ease;
+}
+header img:hover {
+  transform: scale(1.05);
+}
+
+/* ==============================
+   Contenedor Principal
+   ============================== */
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  background: #fff;
+  padding: var(--spacing);
+  border-radius: var(--radius-md);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+/* ==============================
+   Formularios
+   ============================== */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing);
+  margin-bottom: var(--spacing);
+}
+form input[type="text"],
+form select {
+  flex: 1;
+  padding: 0.6em 0.8em;
+  border: 1px solid #ccc;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+form input[type="text"]:focus,
+form select:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+form button {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  padding: 0.6em 1.2em;
+  border-radius: var(--radius-sm);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+}
+form button:hover {
+  background-color: var(--color-primary-light);
+}
+form button:active {
+  transform: scale(0.98);
+}
+
+/* ==============================
+   Tablas
+   ============================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: var(--spacing);
+}
+thead {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+th, td {
+  padding: 0.75em 0.5em;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+tbody tr:hover {
+  background-color: #f1faff;
+}
+
+/* ==============================
+   Secciones y Títulos
+   ============================== */
+h2, h3 {
+  margin-bottom: 0.5em;
+  color: var(--color-primary);
+}
+p {
+  margin-bottom: 0.75em;
+}
+
+/* ==============================
+   Botones Extras
+   ============================== */
+.btn {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: #fff;
+  padding: 0.5em 1em;
+  border-radius: var(--radius-sm);
+  transition: background-color 0.2s ease;
+}
+.btn:hover {
+  background-color: #ff8124;
+}
+
+/* ==============================
+   Responsive
+   ============================== */
+@media (max-width: 600px) {
+  form {
+    flex-direction: column;
+  }
+  header, main {
+    padding: 0.5em;
+  }
+}
+

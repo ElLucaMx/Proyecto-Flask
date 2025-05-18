@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %}Detalle: {{ selected_dev }}{% endblock %}
+
+{% block content %}
+  <h2>Juegos de {{ selected_dev }}</h2>
+
+  {% if games_by_dev %}
+    <table>
+      <thead>
+        <tr>
+          <th>Título</th>
+          <th>Consola</th>
+          <th>Año</th>
+          <th>Ventas</th>
+          <th>Recaudación</th>
+          <th>Género</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for game in games_by_dev %}
+          <tr>
+            <td>{{ game.titulo }}</td>
+            <td>{{ game.console_name }}</td>
+            <td>{{ game.anioLanzamiento }}</td>
+            <td>{{ game.finanzas.ventas }}</td>
+            <td>{{ game.finanzas.recaudacion }}</td>
+            <td>{{ game.genero }}</td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  {% else %}
+    <p>No se han encontrado juegos para {{ selected_dev }}.</p>
+  {% endif %}
+
+  <p><a href="{{ url_for('consoles') }}">← Volver a búsqueda</a></p>
+{% endblock %}
+

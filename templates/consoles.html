@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block title %}Buscar por Desarrolladora{% endblock %}
+
+{% block content %}
+  <h2>Buscar por desarrolladora</h2>
+  <form action="{{ url_for('list_consoles') }}" method="post" style="display: flex; align-items: center;">
+    <!-- Input sincronizado -->
+    <input
+      type="text"
+      name="q"
+      id="dev-input"
+      placeholder="Escribe el nombre de la desarrolladora…"
+      value="{{ request.form.get('q','') }}"
+      style="flex: 1; padding: 0.5em;"
+    >
+
+    <!-- Select dinámico -->
+    <select
+      id="dev-select"
+      style="margin-left: 0.5em; padding: 0.5em;"
+      onchange="document.getElementById('dev-input').value = this.value;"
+    >
+      <option value="">— Elige desarrolladora —</option>
+      {% for dev in developers %}
+        <option
+          value="{{ dev }}"
+          {% if dev == request.form.get('q') %}selected{% endif %}
+        >
+          {{ dev }}
+        </option>
+      {% endfor %}
+    </select>
+
+    <button type="submit" style="margin-left: 0.5em; padding: 0.5em 1em;">
+      Buscar
+    </button>
+  </form>
+{% endblock %}
+

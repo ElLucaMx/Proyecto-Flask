@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Resultados{% endblock %}
+
+{% block content %}
+  <h2>Desarrolladora: {{ selected_dev }}</h2>
+  <p><strong>Total de ventas:</strong> {{ total_sales }}</p>
+
+  <p>
+    <a href="{{ url_for('developer_detail') }}?dev={{ selected_dev|urlencode }}">
+      Ver Detalle
+    </a>
+  </p>
+
+  <p><a href="{{ url_for('consoles') }}">← Nueva búsqueda</a></p>
+{% endblock %}
+
